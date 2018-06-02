@@ -14,7 +14,7 @@ public class MoistureController {
 		// Call Service to get the current humidity value for Sensor
 		
 		// convert into internal
-		this.moisture = 1;
+		this.moisture ++;
 	}
 
 	public int getMoisture() {
